@@ -30,9 +30,4 @@ public class PlayerMovement : MonoBehaviour
             m_controller.Move(direction * m_moveSpeed * Time.deltaTime);
         }
     }
-
-    private void FixedUpdate()
-    {
-        //m_rb.velocity = m_movement * m_moveSpeed;
-    }
 }
